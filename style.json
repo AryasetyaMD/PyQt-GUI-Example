@@ -1,0 +1,85 @@
+{
+	"QCard": [{
+		"cards": [
+			"card1",
+			"card2",
+			"card3",
+			"card4"
+		],
+		"shadow":[{
+			"color": "#000",
+			"blurRadius": 10,
+			"xOffset": 0,
+			"yOffset": 0
+		}]
+	},{
+		"cards": [
+			"widget_4",
+			"widget_5",
+			"headerFrame"
+		],
+		"shadow":[{
+			"color": "#000",
+			"blurRadius": 5,
+			"xOffset": 0,
+			"yOffset": 0
+		}]		
+	}],
+	"QCustomSlideMenu": [{
+		"name": "profileCont",
+		"floatPosition": [{
+			"relativeTo": "mainBody",
+			"position": "top-right",
+			"shadow":[{
+				"color": "#000",
+				"blurRadius": 20,
+				"xOffset": 0,
+				"yOffset": 0
+			}]
+		}],
+		"defaultSize": [{
+			"width": 0,
+			"height": 0
+		}],
+		"collapsedSize": [{
+			"width": 0,
+			"height": 0
+		}],
+		"expandedSize": [{
+			"width": 100,
+			"height": "auto"
+		}],
+		"toggleButton": [{
+			"buttonName": "accountBtn"
+		}],
+		"menuTransitionAnimation": [{
+			"animationDuration": 1000,
+			"animationEasingCurve": "OutBack"
+		}]
+	},{
+		"name": "leftMenu",
+		"defaultSize": [{
+			"width": 0,
+			"height": "parent"
+		}],
+		"collapsedSize": [{
+			"width": 0,
+			"height": "parent"
+		}],
+		"expandedSize": [{
+			"width": 230,
+			"height": "parent"
+		}],
+		"toggleButton": [{
+			"buttonName": "menuBtn",
+			"icons": [{
+				"whenMenuIsCollapsed": ":/blueIcons/assets/icons/blue/menu.svg",
+				"whenMenuIsExpanded": ":/blueIcons/assets/icons/blue/chevron-left.svg"
+			}]
+		}],
+		"menuTransitionAnimation": [{
+			"animationDuration": 1000,
+			"animationEasingCurve": "OutBack"
+		}]
+	}]
+}
